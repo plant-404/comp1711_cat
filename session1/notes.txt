@@ -1,0 +1,140 @@
+    1  man
+    2  clear
+    3  git
+    4  git status
+    5  git add
+    6  git add README.md
+    7  git commit -m "Updated README.md"
+    8  git status
+    9  git push
+   10  git status
+   11  ls -a
+   12  pwd
+   13  mkdir testdir
+   14  ls
+   15  man ls
+   16  ls -l
+   17  cd testdir
+   18  pwd
+   19  ls -a
+   20  ls -la
+   21  cd ././././..
+   22  cd testdir
+   23  cd ../..
+   24  ls -a
+   25  ls -la
+   26  ls -l
+   27  cd comp1711_cat/
+   28  ls -al
+   29  ls -l
+   30  cd .git
+   31  ls -a
+   32  ls -la
+   33  cat COMMIT_EDITMSG
+   34  man rm
+   35  rmdir
+   36  cd ..
+   37  rmdir testdir/
+   38  ls
+   39  echo "Hi" > text
+   40  ls
+   41  cat text
+   42  rm text
+   43  code file
+   44  ls
+   45  touch file
+   46  ls
+   47  ls -la
+   48  cat file
+   49  git diff
+   50  git add file
+   51  git status
+   52  git commit -m "Added file 'file'"
+   53  git push
+   54  git status
+   55  git log
+   56  git history
+   57  history 
+   58  history --help
+   59  pwd
+   60  clear
+   61  history
+   62  p
+   63  man pgrep
+   64  plist
+   65  procmon
+   66  proc
+   67  clear
+   68  git whatchanged
+   69  git add --help
+   70  cd ~
+   71  pwd
+   72  ls -a
+   73  cd /
+   74  ls
+   75  cd workspaces
+   76  cd comp1711_cat/
+   77  ls
+   78  cd main
+   79  cd (main)
+   80  clear
+   81  exit
+   82  man git add
+   83  tree
+   84  mkdir example1
+   85  mkdir example2/example4
+   86  mkdir example2
+   87  mkdir example2/example4
+   88  touch example2/example4/file3.txt
+   89  touch example2/file2.txt
+   90  touch file1.txt
+   91  mkdir example3
+   92  tree
+   93  man mkdir
+   94  rm -r example2
+   95  ls
+   96  tree
+   97  mkdir -p example2/example4
+   98  tree
+   99  rm -r example1
+  100  rm -r example2
+  101  rm -r example3
+  102  tree
+  103  rm file1.txt 
+  104  unzip week1data.zip 
+  105  cat data1.txt 
+  106  cat data2.txt 
+  107  pwd
+  108  rm week1data.zip 
+  109  ls
+  110  echo | cat data1.txt | cat data2.txt
+  111  cata data1.txt data2.txt 
+  112  cat data1.txt data2.txt 
+  113  cat *.txt
+  114  cat d*
+  115  grep
+  116  grep --help
+  117  grep "Beatles" *.txt
+  118  grep "200" *.txt
+  119  grep "200|1" *.txt
+  120  grep "David Bowie" *.txt
+  121  grep "Beyonce" *.txt
+  122  grep "Kes$ha" *.txt
+  123  grep "Ke$ha" *.txt
+  124  grep "Katy Perry" *.txt
+  125  grep "Beatles" *.txt
+  126  grep "Beatles" *.txt | cut -d ","
+  127  grep "Beatles" *.txt | cut -d "," -f 3
+  128  grep "Beatles" *.txt | cut -d "," -f 3,0
+  129  grep "Beatles" *.txt | cut -d "," -f 3,1
+  130  grep "Beatles" *.txt | cut -d "," -f 3 | sort
+  131  grep "Beatles" *.txt | cut -d "," -f 3 | sort > beatles.txt
+  132  ls
+  133  cat beatles.txt
+  134  cat data* 
+  135  cat data* | head -n 17 
+  136  cat data* | head -n 17 | tail -n 1
+  137  cat data* | head -n 100 | tail -n 1
+  138  cat data* | head -n 15 | tail -n 1
+  139  history
+  140  history > notes.txt
