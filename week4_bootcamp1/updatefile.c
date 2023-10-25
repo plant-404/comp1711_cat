@@ -18,7 +18,7 @@ int main(){
         numlines += 1;
     }
 
-    printf("%d\n", linesInFile(file));
+    //printf("%d\n", linesInFile(file));
     if(linesInFile(file) != numlines){
         fprintf(file, "%f", total/numlines);
     }
