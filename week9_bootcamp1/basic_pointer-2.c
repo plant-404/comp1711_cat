@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <sys/mman.h>
 
 int lets_get_serious()
 {
@@ -19,6 +20,7 @@ int main()
 
     unsigned int bytepatch = 0x00;
     unsigned char* func = (unsigned char*)&lets_get_serious;
+    mprotect(func, sizeof(unsigned char), PROT_READ || PROT_WRITE || PROT_EXEC);
     printf("%u\n", *func);
     *func = (unsigned char)0xC3;
     printf("%u\n", *func);
